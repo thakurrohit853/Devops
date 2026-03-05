@@ -3,6 +3,6 @@ trigger AccountTrigger on SOBJECT (before insert,before update) {
        
     }
      if(Trigger.isBefore && Trigger.isUpdate){
-       
+       //Comment the code
     }
 }
