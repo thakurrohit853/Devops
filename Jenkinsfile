@@ -53,7 +53,7 @@ node {
 			   //rmsg = bat returnStdout: true, script: "${toolbelt} force:mdapi:deploy -d manifest/."
 			}
 			  
-            printf rmsg
+            echo rmsg
             println('Hello from a Job DSL script!')
             println(rmsg)
         }
