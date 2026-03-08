@@ -14,9 +14,7 @@ public with sharing class Calculator {
        return a-b;
    }
   
-   
-}
-   Public integer add(Integer a, Integer b) {
+   public integer add(Integer a, Integer b) {
         return a + b;
     }
     
